@@ -1,0 +1,30 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="hNMbQxSL16hMclPLq7Ye">
+    <mxGraphModel dx="1010" dy="562" grid="1" gridSize="10" guid="1" data="1" />
+    <mxCell id="0" parent="1" />
+    <mxCell id="1" value="Estudiante" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0">
+      <mxGeometry x="100" y="40" width="120" height="80" />
+    </mxCell>
+    <mxCell id="2" value="ID_Estudiante (PK)&#xa;Nombre&#xa;Número de documento&#xa;Teléfono&#xa;Dirección" style="text;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="0">
+      <mxGeometry x="100" y="120" width="120" height="100" />
+    </mxCell>
+    <mxCell id="3" value="Libro" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0">
+      <mxGeometry x="400" y="40" width="120" height="80" />
+    </mxCell>
+    <mxCell id="4" value="ID_Libro (PK)&#xa;Título&#xa;Género&#xa;Referencia" style="text;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="0">
+      <mxGeometry x="400" y="120" width="120" height="100" />
+    </mxCell>
+    <mxCell id="5" value="Préstamo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0">
+      <mxGeometry x="250" y="300" width="120" height="80" />
+    </mxCell>
+    <mxCell id="6" value="ID_Préstamo (PK)&#xa;ID_Estudiante (FK)&#xa;ID_Libro (FK)&#xa;Fecha de préstamo&#xa;Fecha de devolución" style="text;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="0">
+      <mxGeometry x="250" y="380" width="120" height="120" />
+    </mxCell>
+    <mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="0" source="1" target="5">
+      <mxGeometry relative="1" />
+    </mxCell>
+    <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="0" source="3" target="5">
+      <mxGeometry relative="1" />
+    </mxCell>
+  </diagram>
+</mxfile>
