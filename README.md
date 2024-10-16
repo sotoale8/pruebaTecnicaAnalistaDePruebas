@@ -1,2 +1,2 @@
 # pruebaTecnicaAnalistaDePruebas
-Prueba Tecnica para analista de pruebas (QA e)
+Prueba Tecnica para analista de pruebas (QA)
