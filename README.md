@@ -1,7 +1,7 @@
 # pruebaTecnicaAnalistaDePruebas
 Prueba Tecnica para analista de pruebas (QA)
 
-Diagrama Modelo Entidad en formato html para verlo en el navegador.
+Diagrama Modelo Entidad en formato svg.
 
 
-Script de las consultas en SQL
+Script de las consultas en SQL.
